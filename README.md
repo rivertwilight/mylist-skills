@@ -10,7 +10,7 @@ the lists of things people love — through the `mylist` command line.
 The skill assumes the CLI is installed and signed in:
 
 ```bash
-npm install -g mylist-cli
+npm install -g @mylist-world/cli
 mylist auth login        # opens mylist.world to authorize this machine
 ```
 

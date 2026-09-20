@@ -29,7 +29,7 @@ then add its id to the list. Deleting an entry does not delete the thing.
 ## Before anything else
 
 ```bash
-mylist --version || npm install -g mylist-cli
+mylist --version || npm install -g @mylist-world/cli
 mylist auth status            # exit 4 = not signed in
 ```
 
