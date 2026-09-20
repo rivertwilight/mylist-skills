@@ -1,0 +1,12 @@
+{
+  "name": "mylist",
+  "description": "Drive a MyList account through the mylist command line: read, search, create, edit, tag, publish and delete lists and saved things.",
+  "version": "0.1.0",
+  "author": {
+    "name": "rivertwilight",
+    "url": "https://github.com/rivertwilight"
+  },
+  "homepage": "https://mylist.world",
+  "repository": "https://github.com/rivertwilight/mylist-skills",
+  "keywords": ["mylist", "lists", "cli"]
+}

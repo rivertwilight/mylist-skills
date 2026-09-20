@@ -1,0 +1,16 @@
+{
+  "name": "mylist-skills",
+  "owner": {
+    "name": "rivertwilight",
+    "url": "https://github.com/rivertwilight"
+  },
+  "plugins": [
+    {
+      "name": "mylist",
+      "source": "./",
+      "description": "Drive a MyList account through the mylist command line: read, search, create, edit, tag, publish and delete lists and saved things.",
+      "category": "productivity",
+      "keywords": ["mylist", "lists", "cli"]
+    }
+  ]
+}
