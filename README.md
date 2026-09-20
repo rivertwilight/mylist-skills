@@ -14,6 +14,22 @@ npm install -g @mylist-world/cli
 mylist auth login        # opens mylist.world to authorize this machine
 ```
 
+## Agents without a shell
+
+A hosted agent — ChatGPT, Claude on claude.ai or Cowork, anything that cannot
+run a command — connects to MyList's MCP server instead of the CLI:
+
+```
+https://mylist.world/api/mcp
+```
+
+Add it as a custom connector or remote MCP server. The first connection
+opens MyList to sign in and approve the app; nothing to paste. The tools
+mirror the CLI (`list_lists`, `get_list`, `create_item`, `add_to_list`,
+`search`, `fetch`, …) and every connected app shows up under Settings › Apps
+& command line, where it can be disconnected. This skill is not needed there:
+the server describes its own tools.
+
 ## Install
 
 **Claude Code** — as a plugin from this repo's marketplace:

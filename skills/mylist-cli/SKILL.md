@@ -26,6 +26,16 @@ signed in. This skill is how to drive it without guessing.
 So "add *Dune* to my sci-fi list" is two steps: find (or create) the thing,
 then add its id to the list. Deleting an entry does not delete the thing.
 
+## No shell? Use the MCP server instead
+
+If you are a hosted agent with MCP support but no terminal (ChatGPT, Claude
+on the web, Cowork), do not look for the CLI: MyList serves the same account
+as an MCP server at `https://mylist.world/api/mcp`, with OAuth sign-in on
+first connect. Its tools carry the same names as the commands below
+(`list_lists`, `get_list`, `create_item`, `add_to_list`, `search`, `fetch`).
+The rules in this file about ids, partial updates, duplicates and confirming
+deletes apply there too.
+
 ## Before anything else
 
 ```bash
